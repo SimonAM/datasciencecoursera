@@ -1,14 +1,27 @@
+---
+title: CodeBook
+author: Simon Mattsson
+date: 2015-07-13
+output: 
+	html_document:
+		keep_md:yes
+---
 For walkthrough of scripts, look in README.md
 
-#Description of variables
-###Collection of variables
+##Project Description
+An attempt to create a program capable of identifying the activity patterns of smartphone users by registering data from the accelerometer and gyroscope of the smart phone.
+
+###Collecting of the raw data
 Data where collected from 30 persons wearing a samsung phone during the performance of six activities.
 The physical activity was coded by observers. 
 Other variables were collected from the accelerometer and gyroscope from the samsung phone. 
 There were two sets. A group of subjects that made out a training set for the samsung-algorithm. And a group of subjects that made out the testing set for the samsung-algorithm.
 
+##Description of variables
+
 
 #Transformations in data cleansing
+For more information look in README.md
 The activities were transformed from numericals into the factors specified by the activity_labels.txt.
 numericals		factors
 * 1            	WALKING
